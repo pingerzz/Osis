@@ -1,7 +1,6 @@
 {% extends 'app/base.html' %}
-
-
+{% load static %}
 {% block content %}
-    <h1>hEllo</h1>
+    <h1>Hello World</h1>
+<img class="mylogo" src="{% static 'images/logo.png' %}">
 {% endblock %}
-
